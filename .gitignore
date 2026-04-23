@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# Reports (contain sensitive data — don't upload real findings)
+*/reports/*.json
+
+# API keys (never commit these)
+config.ini
+secrets.py
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
